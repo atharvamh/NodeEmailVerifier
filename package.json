@@ -1,0 +1,29 @@
+{
+  "name": "nodeemailverifier",
+  "version": "1.0.0",
+  "description": "email verification tool built using NodeJS and Express to authorize authenticated Email IDs for applications",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvamh/NodeEmailVerifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvamh/NodeEmailVerifier/issues"
+  },
+  "homepage": "https://github.com/atharvamh/NodeEmailVerifier#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15"
+  }
+}
